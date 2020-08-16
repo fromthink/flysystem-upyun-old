@@ -51,6 +51,19 @@ class UpyunAdapter extends AbstractAdapter
         $this->protocol = $protocol;
     }
 
+     /**
+     * Rename a file.
+     *
+     * @param string $path
+     * @param string $newpath
+     *
+     * @return bool
+     */
+    public function rename($path, $newpath)
+    {
+        return $this->client()->move($path, $contents);
+    }
+    
     /**
      * @param string $path
      * @param string $contents
