@@ -1,5 +1,5 @@
 {
-    "name": "fromthink/flysystem-upyun",
+    "name": "fromthink/flysystem-upyun-old",
     "description": "Flysystem and Laravel adapter for the Upyun storage.",
     "keywords": ["Laravel","upyun","又拍","又拍云"],
     "license": "MIT",
